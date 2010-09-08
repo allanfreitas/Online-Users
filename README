@@ -1,6 +1,7 @@
 This library for CodeIgniter is made to work with any authentication library.
 
 It only needs a user ID that can be generated per session or pulled from a users table.
+You will see that I am getting my user ID from the tank_auth authentication library.
 
 CREATE TABLE `online` (
  `user_id` int(11) NOT NULL,
