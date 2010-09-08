@@ -1,0 +1,9 @@
+This library for CodeIgniter is made to work with any authentication library.
+
+It only needs a user ID that can be generated per session or pulled from a users table.
+
+CREATE TABLE `online` (
+ `user_id` int(11) NOT NULL,
+ `time` int(11) NOT NULL,
+ UNIQUE KEY `user_id` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin
